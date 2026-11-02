@@ -1,0 +1,37 @@
+{
+  "projects": [
+    [
+      "langchain-ai",
+      "langgraph"
+    ],
+    [
+      "microsoft",
+      "autogen"
+    ],
+    [
+      "crewAIInc",
+      "crewAI"
+    ]
+  ],
+  "issue_select": {
+    "regex": [
+      "repeat(ed)? (tool )?calls?",
+      "(infinite )?loop",
+      "termination",
+      "validation|validate"
+    ]
+  },
+  "field_select": [
+    "url",
+    "repository_url",
+    "html_url",
+    "id",
+    "number",
+    "title",
+    "state",
+    "created_at",
+    "updated_at",
+    "closed_at",
+    "body"
+  ]
+}
